@@ -7,6 +7,7 @@ import Header from './Header';
 import Landing from './Landing';
 import Dashboard from './Dashboard';
 import SurveyNew from './surveys/SurveyNew';
+import Footer from './Footer';
 
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
 				<Route exact={true} path="/" component={Landing} />
 				<Route exact path="/surveys" component={Dashboard} />
 				<Route path="/surveys/new" component={SurveyNew} />
+				<Footer />
 			</div>
 		</BrowserRouter>
 	</div>
